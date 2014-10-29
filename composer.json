@@ -10,6 +10,6 @@
     ],
     "minimum-stability": "dev",
     "autoload": {
-        "files": ["DNS2DBarcode.php"]
+        "files": ["barcodes.php"]
     }
 }
