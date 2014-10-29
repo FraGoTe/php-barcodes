@@ -1,7 +1,7 @@
 <?php
 //test file  
-include_once 'barcodes.php';
-$d2=new DNS2DBarcode();
+require 'vendor/autoload.php';
+$d2 = new DNS2DBarcode();
 $d2->save_path="";
 //echo $d2->getBarcodePNGPath("dinesh", 'pdf417',2, 2, 'black');
 //echo $d2->getBarcodePNGPath("dinesh", 'datamatrix',2, 2, 'black');
