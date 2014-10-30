@@ -89,4 +89,4 @@ asdasdasdasdda
 sd';
 ?>
 
-<img src="<?php echo $d2->getBarcodePNGPath($as, 'pdf417',2, 2); ?>" />
+<img src="<?php echo $d2->getBarcodePNGPath($as, 'pdf417',2, 2, array(0, 0, 0), 'filename'); ?>" />
